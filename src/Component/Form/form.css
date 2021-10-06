@@ -1,0 +1,49 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 400px;
+  width: 700px;
+  box-shadow: 0px 4px 12px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 4% 2%;
+}
+.form h3 {
+  font-size: 24px;
+}
+.form form {
+  margin: 4% 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+}
+
+.form .form-control {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form .form-control input {
+  padding: 15px 10px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: rgb(209, 209, 209);
+  border-radius: 5px;
+}
+.form .form-control .Gender input {
+  margin: 0px 10px;
+}
+.btn {
+  color: white;
+  background-color: teal;
+  width: 50%;
+  margin-top: 10px;
+  border-radius: 6px;
+  padding: 10px 0;
+}
